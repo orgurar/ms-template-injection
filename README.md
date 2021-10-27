@@ -3,6 +3,8 @@
 Microsoft Word Template Injection vulnerability is the explotation of the VB macros mechanism found in ms-word template documents.
 Microsoft Word has a feature where a user can create a document with a template. Whenever a Word document with a template is being written/read, this templates are being downloaded/used from the local, or remote machine. Thus, the attackers can host a Word Document Template file (.dotm) with malicious macros on their servers. Whenever the victim opens the Word Document, the Document will fetch the malicious template from the attacker's server, and execute it.
 
+In short, template injection takes advantage of Microsoft Office's ability to reach out to a file in your local file system or on a domain to download a template to be used in a document.
+
 ## Prerequisites Acknowledgements
 
 This vulnerability contains knowledge from vary edges and mechanisms, here you will be able to find a summary of each of the main topics.
