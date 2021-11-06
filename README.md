@@ -27,11 +27,11 @@ Contains the final payload binary, as well as the malicious `dotm` file.
 
 ### data
 
-Contains the VBA code (can be found in `macro_vba_code.vb` file) and the textual file of the binary data. In order to download the `binary` malware without the os blocking the file, I encoded it using `certutil` to a text file, then in the `VBA Macro` I will decode it.
+`data/WinService.txt` Contains the textual file of the binary data. In order to download the `binary` malware without the os blocking the file, I encoded it using `certutil` to a text file, then in the `VBA Macro` I will decode it.
 
 ### src
 
-Contains the source code for the payload written in `C++`.
+Contains the source code for the payload written in `C++`. In addition, the `vba macro` folder contains the `Visual Basic for Applications` code used to write the document's macro.
 
 ## Built With
 
